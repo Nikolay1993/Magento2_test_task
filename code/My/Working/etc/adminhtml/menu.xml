@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="My_Working::working" title="Menu" module="My_Working" sortOrder="51" resource="My_Working::working"/>
+        <add id="My_Working::phone" title="Manage Phones" module="My_Working" sortOrder="10" action="working/phone" resource="My_Working::phone" parent="My_Working::working"/>
+    </menu>
+</config>
